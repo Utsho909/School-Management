@@ -1,1 +1,4 @@
-x
+<?php
+include'..\config.php';
+
+?>
