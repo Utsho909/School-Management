@@ -66,13 +66,13 @@ Open the `config.php` file.
 
 Update the database connection settings with your MySQL credentials:
 
-`<?php
+```bash<?php
 $servername = "localhost";
 $username = "your_username";
 $password = "your_password";
 $dbname = "school_management";
 ?>
-`
+```
 5.**Deploy the Application:**
 
 Upload the project files to your web server's root directory.
@@ -83,7 +83,8 @@ Access the application through your browser by navigating to your server's URL.
 
 Folder Structure 
 
-`School-Management/
+```bash
+School-Management/
 │
 ├── assets/
 │   ├── school_management_system.sql    # Database schema
@@ -98,3 +99,4 @@ Folder Structure
 ├── index.php                          # Landing page
 └── README.md                          # Project documentation`
 
+```
